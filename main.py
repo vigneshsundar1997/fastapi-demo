@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/ping")
+@app.get("/")
 def health_check():
     return "healthy"
 
