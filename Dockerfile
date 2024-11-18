@@ -8,8 +8,6 @@ RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
 COPY ./main.py /code/main.py
 
-UNKNOWNCOMMAND
-
 EXPOSE 80
 
 CMD ["fastapi", "run", "main.py", "--port", "80"]
